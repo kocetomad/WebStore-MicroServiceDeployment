@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .store__container {
+    @apply flex grid md:grid-cols-5 grid-cols-1 h-screen;
+  }
+
+  .store {
+    @apply md:col-start-2 md:col-span-3 col-span-1 my-8 text-center shadow-2xl rounded-md bg-base-100;
+  }
+}
